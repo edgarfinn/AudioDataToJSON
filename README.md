@@ -1,7 +1,18 @@
 # Audio Data To JSON
 
+### Use:
+```
+git clone https://github.com/edgarfinn/AudioDataToJSON.git
+cd AudioDataToJSON
+npm install
+mkdir mp3
+```
 
-Credits:
+copy any nmmber of mp3s tagged with id3 key and pitch metadata tags to the `mp3` folder and run `npm start`
+
+Once complete, results will be printed to a `./data.json` file in the rot of the app folder.
+
+### Credits:
 
 This app makes use of the following packages
 
