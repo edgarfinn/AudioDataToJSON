@@ -8,7 +8,7 @@ npm install
 mkdir mp3
 ```
 
-copy any nmmber of mp3s tagged with id3 key and pitch metadata tags to the `mp3` folder and run `npm start`
+copy any nmmber of mp3s tagged with id3 key and pitch metadata to the `mp3` folder and run `npm start`
 
 Once complete, results will be printed to a `./data.json` file in the rot of the app folder.
 
