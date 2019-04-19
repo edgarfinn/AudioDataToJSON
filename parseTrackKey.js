@@ -4,8 +4,10 @@ const parseTrackKey = (key) => {
   const keyData = {
     harmonicKey: key
   };
-  keyData.camelotKey = keyMap[key].camelotKey;
-  keyData.altHarmonicKey = keyMap[key].altHarmonicKey;
+  if (keyMap.hasOwnProperty(key)) {
+    keyData.camelotKey = keyMap[key].camelotKey;
+    keyData.altHarmonicKey = keyMap[key].altHarmonicKey;
+  }
   return keyData;
 };
 
