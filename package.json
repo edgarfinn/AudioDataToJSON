@@ -1,0 +1,27 @@
+{
+  "name": "id3-to-json",
+  "version": "1.0.0",
+  "description": "Take a folder with mp3 files and convert all ID3 tags to a JSON array",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "id3",
+    "json",
+    "mp3",
+    "node"
+  ],
+  "author": "@ezy",
+  "license": "MIT",
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "cli-progress": "^2.1.0",
+    "eslint": "^5.2.0",
+    "eslint-plugin-import": "^2.13.0",
+    "fs-extra": "^7.0.0",
+    "moment": "^2.22.2",
+    "node-id3": "^0.1.7"
+  }
+}
